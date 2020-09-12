@@ -17,7 +17,6 @@ categories: Web-guide-for-newbie
 
 드디어 첫 블로그 포스팅을 올리네요. 대망의 첫 포스팅에서는 깃헙 페이지를 이용해 블로그를 만드는 과정을 소개합니다!
 
-<b>
 <ol>
 <li>깃헙 페이지? 깃헙 블로그란 대체 무엇인가?</li>
 <li>블로그를 위한 깃헙 리포지토리(저장소)를 만들자</li>
@@ -25,11 +24,10 @@ categories: Web-guide-for-newbie
 <li>jekyll 테마를 커스터마이징 해보자</li>
 <li>블로그에 포스팅을 해보자</li>
 </ol>
-</b>
 
 <b>1.깃헙 페이지? 깃헙 블로그란 대체 무엇인가?</b>
 
-<ins>"www.uzzuguzuzzugu.github.io"</ins>
+<i>"www.uzzuguzuzzugu.github.io"</i>
 
 요런 형식의 주소를 가진 블로그를 보신적 있나요?
 
