@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "깃헙 페이지로 블로그를 만들어보자!-세상 초보자용 (1)"
-date: 2020-09-13T02:06:52-05:00
+title:  "깃헙 페이지로 블로그를 만들어보자!-세상 초보자용 (1)"
+date:   2029-09-13 02:43:59
+date:   2015-09-13T14:25:52-05:00
 author: 너구리
-categories: Web guide for Newbie
+categories: Web-guide-for-newbie
 ---
 
 <h2>깃헙 페이지로 블로그 만들기</h2>
@@ -16,16 +17,19 @@ categories: Web guide for Newbie
 
 드디어 첫 블로그 포스팅을 올리네요. 대망의 첫 포스팅에서는 깃헙 페이지를 이용해 블로그를 만드는 과정을 소개합니다!
 
+<b>
 <ol>
-<li>1. 깃헙 페이지? 깃헙 블로그란 대체 무엇인가?</li>
-<li>2. 블로그를 위한 깃헙 리포지토리(저장소)를 만들자</li>
-<li>3. jekyll 테마를 이용해 블로그를 꾸며보자</li>
-<li>4. jekyll 테마를 커스터마이징 해보자</li>
-<li>5. 블로그에 포스팅을 해보자</li>
-<li>6. 깃헙 페이지? 깃헙 블로그란 대체 무엇인가?</li>
+<li>깃헙 페이지? 깃헙 블로그란 대체 무엇인가?</li>
+<li>블로그를 위한 깃헙 리포지토리(저장소)를 만들자</li>
+<li>jekyll 테마를 이용해 블로그를 꾸며보자</li>
+<li>jekyll 테마를 커스터마이징 해보자</li>
+<li>블로그에 포스팅을 해보자</li>
 </ol>
+</b>
 
-"www.uzzuguzuzzugu.github.io"
+<b>1.깃헙 페이지? 깃헙 블로그란 대체 무엇인가?</b>
+
+<ins>"www.uzzuguzuzzugu.github.io"</ins>
 
 요런 형식의 주소를 가진 블로그를 보신적 있나요?
 
@@ -35,7 +39,7 @@ categories: Web guide for Newbie
 
 이제 차근 차근 레포지토리 등록해 깃헙 페이지를 파고 블로그에 포스팅까지 등록해보도록 하겠슴다.
 
-2.블로그를 위한 깃헙 리포지토리(저장소)를 만들자!
+<b>2.블로그를 위한 깃헙 리포지토리(저장소)를 만들자!</b>
 
 <b> 우선 깃헙 계정에 로그인한 뒤, 새로운 레포지토리(New repository)를 만들어줍니다. </b>
 
@@ -50,11 +54,11 @@ cmd창 키구요, 이렇게 입력합시다.
 {% highlight javascript %}
 $ cd [Repository를 저장할 폴더] //cmd의 디렉토리를 설정합니다
 $ git clone [내 레포지토리 주소] //아까 만들었던 레포지토리의 폴더를 디렉토리로 복사해옵니다.
-{% end javascript %}
+{% endhighlight %}
 
 그리고 내 디렉토리 폴더를 열어보면 짠! 아까 레포지토리 폴더가 생겼죠. 이제 여기에 테마 파일들을 설치할겁니다.
 
-3.jekyll 테마를 이용해 블로그를 꾸며보자
+<b>3.jekyll 테마를 이용해 블로그를 꾸며보자</b>
 
 그런데 블로그라고 하기엔 페이지가 너무 휑-하죠.
 다른 므찐 블로그처럼 좀 꾸며봐야겠어요.
@@ -91,7 +95,7 @@ ruby 설치되어 있는 분은 넘어가시고 진행해주세요.
 $ cd ./GitBlogDemo.github.io
 $ gem install bundler
 \$ bundle install
-{% end javascript %}
+{% endhighlight %}
 
 루비로 jekyll 테마를 설치하기 위한 밑작업이라고 보면 되겠네요.
 참고로, 저는 커맨드 창에서 명령어가 실행되지 않았어요. 그래서'start command promt with ruby' 라는 루비용 커맨드 창에서 모든 커맨드를 실행해주었습니다.
@@ -102,7 +106,7 @@ $ gem install bundler
 
 {% highlight javascript %}
 \$ bundle exec jekyll serve
-{% end javascript %}
+{% endhighlight %}
 
 개발용 서버를 열어봅니다. (명령어 처리 완료 후 http://localhost:4000 주소를 클릭합니다)
 
@@ -115,7 +119,7 @@ git add . //커밋 대기 리스트에 모든 파일을 올려줍니다
 git commit -m "Theme changed" //커밋합니다
 git remote add origin "내 레포지토리 주소" // 원격 저장소 주소를 설정
 git push origin master //푸시
-{% end javascript %}
+{% endhighlight %}
 
 테마 파일이 잘 푸시되었다면 깃헙에서 등록된 파일을 확인할 수 있겠죠?
 
